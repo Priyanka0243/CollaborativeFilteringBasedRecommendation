@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Register</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/coin-slider.css" />
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-titillium600w.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/coin-slider.min.js"></script>
+<style type="text/css">
+<!--
+.style6 {font-size: 22px}
+.style8 {font-size: 12px}
+-->
+</style>
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="header_resize">
+      <div class="logo">
+        <h1><a href="index.html" class="style6">Collaborative Filtering-Based Recommendation of Online Social Voting</a><a href="index.html"></a></h1>
+      </div>
+      <div class="searchform"></div>
+      <div class="clr"></div>
+      <div class="slider">
+        <div id="coin-slider"> <a href="#"><img src="images/slide1.jpg" width="960" height="314" alt="" /></a> <a href="#"><img src="images/slide2.jpg"  width="960" height="314" alt="" /></a> <a href="#"><img src="images/slide3.jpg"  width="960" height="314" alt="" /></a> </div>
+        <div class="clr"></div>
+      </div>
+      <div class="clr"></div>
+      <div class="rss">
+        <p>&nbsp;</p>
+      </div>
+      <div class="menu_nav">
+        <ul>
+          <li><a href="index.html"><span>Home</span></a></li>
+          <li><span><a href="Admin.jsp">Admin</a></span></li>
+          <li><a href="User.html"><span>User</span></a></li>
+          <li class="active"><a href="blog.html"><span>Register</span></a></li>
+          <li><a href="contact.html"><span>About Project </span></a></li>
+        </ul>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="content_resize">
+      <div class="mainbar">
+        <div class="article">
+          <h2>User Registration </h2>
+          <div class="clr"></div>
+          <p><img src="images/Register.png" width="350" height="144" /> 
+          <form action="insertdata.jsp" method="post" id="sendemail" enctype="multipart/form-data">
+            <ol>
+              <li>
+                <label for="name">User Name (required)</label>
+                <input id="name" name="userid" class="text" />
+              </li>
+               <li>
+                <label for="password">Password (required)</label>
+                <input type="password" id="password" name="pass" class="text" />
+              </li>
+              <li>
+                <label for="email">Email Address (required)</label>
+                <input id="email" name="email" class="text" />
+              </li>
+			  <li>
+                <label for="mobile">Mobile Number (required)</label>
+                <input id="mobile" name="mobile" class="text" />
+              </li>
+              
+              <li>
+                <label for="address">Your Address</label>
+                <textarea id="address" name="address" rows="3" cols="50"></textarea>
+              </li>
+			  <li>
+                <label for="dob">Date of Birth (required)</label>
+                <input id="dob" name="dob" class="text" />
+              </li>
+			  <li>
+                <label for="gender">Select Gender (required)</label>
+                <select id="s1" name="gender" style="width:480px;" class="text">
+                              <option>--Select--</option>
+                              <option>MALE</option>
+                              <option>FEMALE</option>
+                </select>
+              </li>
+			  <li>
+                <label for="pincode">Enter Pincode (required)</label>
+                <input id="pincode" name="pincode" class="text" />
+              </li>
+			  
+			  
+			  <li>
+                <label for="pic">Select Profile Picture (required)</label>
+                <input type="file" id="pic" name="pic" class="text" />
+                <ol>
+                  
+                  <ol>
+                      
+                    <ol>
+                          <li>
+                            <input type="image" name="imageField" id="imageField" src="images/submit.gif" class="send" />
+                      </li>
+                    </ol>
+                  </ol>
+                </ol>
+			  </li>
+              <li>
+                <div class="clr"></div>
+              </li>
+            </ol>
+          </form></p>
+        </div>
+       
+        <div class="article">
+          <h2>&nbsp;</h2>
+          
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="gadget">
+          <h2 class="star"><span>Sidebar</span> Menu</h2>
+          <div class="clr"></div>
+          <ul class="sb_menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Admin.jsp">Admin</a></li>
+            <li><a href="User.html">User</a></li>
+            <li><a href="Register.html">Register</a></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="fbg">
+   
+  <div class="footer">
+    <div class="footer_resize">
+      <div style="clear:both;"></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
